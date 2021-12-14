@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+
+
+h1{
+    font-family: 'Sora', sans-serif;
+    font-size: 60px;
+    margin: 10px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.controls {
+    width: 25%;
+    text-align: center;
+    /*margin-left: 100px;*/
+}
+
+.color-picker{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    justify-content: space-around;
+    margin-left: 50px;
+}
+.bg-color, .txt-color {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+input[type=color] {
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.selected {
+    border: 2px solid black;
+}
+#first {
+    background-color: #eb4d4b;
+}
+
+#second {
+    background-color: #4834d4;
+}
+
+#third {
+    background-color: #f9ca24;
+}
+
+#fourth {
+    background-color: #6ab04c;
+}
+
+#fifth {
+    background-color: #95afc0;
+}
+
+
+.color:hover{
+    cursor: pointer;
+}
+
+h2 {
+    font-family: 'Sora', sans-serif;
+    font-size: 30px;
+    margin: 50px;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.title {
+    background-color: tomato;
+    color: snow;
+    border-radius: 5px;
+    width: 100%;
+    justify-items: center;
+}
+
+.main {
+    background-color: snow;
+    width: 100%;
+}
+
+.card-content {
+    height: 100px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border-color: none;
+    font-family: 'Sora', sans-serif;
+    padding: 5px;
+}
+
+#canvas {
+    margin-left: 70px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    background-color: #eb4d4b;
+    text-align: center;
+    font-size: 40px;
+    font-family: Sora;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; 
+}
+
+#canvasText {
+    padding: 30px;
+    text-align: center;
+    word-break: break-all;
+}
+
+#myCanvas {
+    border: 1px solid black;
+}
+
+.downloadBtn {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top:20px;
+}
+
+.downloadBtn a {
+    font-size: 22px;
+}
+#download {
+   width: 200px;
+    height: 45px;
+    background-color: rgb(255, 51, 105);
+    color: snow;
+    font-family: Sora;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 18px;
+    border: none;
+}
+
+#download:hover {
+    cursor: pointer;
+    border: 2px solid snow;
+    border-style: double;
+}
+
+#download-mint {
+   width: 103px;
+    height: 37px;
+    background-color: rgb(255, 51, 105);
+    color: snow;
+    font-family: Sora;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 18px;
+    border: none;
+}
+
+#download-mint:hover {
+    cursor: pointer;
+    border: 2px solid snow;
+    border-style: double;
+}
+
+.mint-btn {
+    text-align: center;
+}
+
